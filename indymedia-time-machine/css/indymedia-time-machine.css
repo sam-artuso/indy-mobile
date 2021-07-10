@@ -6,12 +6,6 @@ body, html {
     background-size: cover;
 }
 
-@media screen and (min-width: 480px) {
-  body {
-    background-image: url("../img/background-image.jpg");
-  }
-}
-
 header { text-align: center; }
 
 .content {
