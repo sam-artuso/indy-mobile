@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-image: url("../img/background-image.jpg");
+  }
+}
+
+header { text-align: center; }
+
+.content {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0em auto 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    max-width: 34em;
+}
+
+a:link {
+  color: #003366;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #CB4335;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #943126;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #F1C40F;
+  background-color: transparent;
+  text-decoration: underline;
+}
