@@ -4,6 +4,9 @@ body, html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    line-height: 1.5em;
 }
 
 @media screen and (min-width: 480px) {
@@ -46,4 +49,23 @@ a:active {
   color: #F1C40F;
   background-color: transparent;
   text-decoration: underline;
+}
+
+ul.nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.nav li {
+  background-color: #013366;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 4px;
+}
+
+ul.nav li a {
+  color: white;
+  display: block;
 }
